@@ -1,0 +1,19 @@
+
+# Xcode
+.DS_Store
+build/
+DerivedData/
+
+# Swift Package Manager
+/.build/
+Packages/
+xcuserdata/
+
+# Firebase
+GoogleService-Info.plist
+
+# Others folder
+others/
+
+# macOS
+*.DS_Store

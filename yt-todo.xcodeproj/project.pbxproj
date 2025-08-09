@@ -6,6 +6,11 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		61832E002E47831C00D326B6 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 61832DFF2E47830C00D326B6 /* .gitignore */; };
+		61E251E82E4789710017804F /* FirebaseCore in Frameworks */ = {isa = PBXBuildFile; productRef = 61E251E72E4789710017804F /* FirebaseCore */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		61BEBFEA2E451D8F00AE53D3 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -24,6 +29,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		61832DFF2E47830C00D326B6 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 		61BEBFDC2E451D8C00AE53D3 /* yt-todo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "yt-todo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		61BEBFE92E451D8F00AE53D3 /* yt-todoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "yt-todoTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		61BEBFF32E451D8F00AE53D3 /* yt-todoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "yt-todoUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -52,6 +58,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				61E251E82E4789710017804F /* FirebaseCore in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -75,6 +82,7 @@
 		61BEBFD32E451D8C00AE53D3 = {
 			isa = PBXGroup;
 			children = (
+				61832DFF2E47830C00D326B6 /* .gitignore */,
 				61BEBFDE2E451D8C00AE53D3 /* yt-todo */,
 				61BEBFEC2E451D8F00AE53D3 /* yt-todoTests */,
 				61BEBFF62E451D8F00AE53D3 /* yt-todoUITests */,
@@ -112,6 +120,7 @@
 			);
 			name = "yt-todo";
 			packageProductDependencies = (
+				61E251E72E4789710017804F /* FirebaseCore */,
 			);
 			productName = "yt-todo";
 			productReference = 61BEBFDC2E451D8C00AE53D3 /* yt-todo.app */;
@@ -215,6 +224,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				61832E002E47831C00D326B6 /* .gitignore in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -564,6 +574,14 @@
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		61E251E72E4789710017804F /* FirebaseCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 61832DFE2E461DBF00D326B6 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseCore;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 61BEBFD42E451D8C00AE53D3 /* Project object */;
 }

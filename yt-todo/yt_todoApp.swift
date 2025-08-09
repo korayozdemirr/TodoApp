@@ -5,10 +5,16 @@
 //  Created by Koray Özdemir on 7.08.2025.
 //
 
+import FirebaseCore
 import SwiftUI
+
 
 @main
 struct yt_todoApp: App {
+    init(){
+        FirebaseApp.configure()
+    }
+    
     var body: some Scene {
         WindowGroup {
             MainView()
