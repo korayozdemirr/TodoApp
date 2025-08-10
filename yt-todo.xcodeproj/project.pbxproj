@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		61832E002E47831C00D326B6 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 61832DFF2E47830C00D326B6 /* .gitignore */; };
 		61E251E82E4789710017804F /* FirebaseCore in Frameworks */ = {isa = PBXBuildFile; productRef = 61E251E72E4789710017804F /* FirebaseCore */; };
+		61E251F92E48B6650017804F /* .ReadMe in Resources */ = {isa = PBXBuildFile; fileRef = 61E251F82E48B6550017804F /* .ReadMe */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,6 +34,7 @@
 		61BEBFDC2E451D8C00AE53D3 /* yt-todo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "yt-todo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		61BEBFE92E451D8F00AE53D3 /* yt-todoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "yt-todoTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		61BEBFF32E451D8F00AE53D3 /* yt-todoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "yt-todoUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		61E251F82E48B6550017804F /* .ReadMe */ = {isa = PBXFileReference; lastKnownFileType = text; path = .ReadMe; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -82,6 +84,7 @@
 		61BEBFD32E451D8C00AE53D3 = {
 			isa = PBXGroup;
 			children = (
+				61E251F82E48B6550017804F /* .ReadMe */,
 				61832DFF2E47830C00D326B6 /* .gitignore */,
 				61BEBFDE2E451D8C00AE53D3 /* yt-todo */,
 				61BEBFEC2E451D8F00AE53D3 /* yt-todoTests */,
@@ -225,6 +228,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				61832E002E47831C00D326B6 /* .gitignore in Resources */,
+				61E251F92E48B6650017804F /* .ReadMe in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
