@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		61832E002E47831C00D326B6 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 61832DFF2E47830C00D326B6 /* .gitignore */; };
 		61E251E82E4789710017804F /* FirebaseCore in Frameworks */ = {isa = PBXBuildFile; productRef = 61E251E72E4789710017804F /* FirebaseCore */; };
+		61E2521D2E48EA450017804F /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 61E2521C2E48EA450017804F /* FirebaseAuth */; };
+		61E252212E48FF2B0017804F /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 61E252202E48FF2B0017804F /* FirebaseFirestore */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +61,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				61E251E82E4789710017804F /* FirebaseCore in Frameworks */,
+				61E2521D2E48EA450017804F /* FirebaseAuth in Frameworks */,
+				61E252212E48FF2B0017804F /* FirebaseFirestore in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -121,6 +125,8 @@
 			name = "yt-todo";
 			packageProductDependencies = (
 				61E251E72E4789710017804F /* FirebaseCore */,
+				61E2521C2E48EA450017804F /* FirebaseAuth */,
+				61E252202E48FF2B0017804F /* FirebaseFirestore */,
 			);
 			productName = "yt-todo";
 			productReference = 61BEBFDC2E451D8C00AE53D3 /* yt-todo.app */;
@@ -580,6 +586,16 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 61832DFE2E461DBF00D326B6 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
 			productName = FirebaseCore;
+		};
+		61E2521C2E48EA450017804F /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 61832DFE2E461DBF00D326B6 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		61E252202E48FF2B0017804F /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 61832DFE2E461DBF00D326B6 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
