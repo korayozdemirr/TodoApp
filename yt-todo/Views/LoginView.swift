@@ -16,15 +16,19 @@ struct LoginView: View {
             VStack{
                 HeaderView()
                 Form{
+                    if !loginModel.errorMessage.isEmpty{
+                        Text(loginModel.errorMessage)
+                            .foregroundStyle(.red)
+                    }
                     TextField("Email Adress", text: $loginModel.email)
                         .autocorrectionDisabled()
                         .autocapitalization(.none)
                     SecureField("Password", text: $loginModel.password)
                     
                 }
-                .frame(height: 150)
+                .frame(height: 200)
                 .cornerRadius(20)
-                BigButton(title: "Login", action: {})
+                BigButton(title: "Login", action: {loginModel.login()})
                 Spacer()
                 
                 VStack{
